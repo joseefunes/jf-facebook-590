@@ -4,7 +4,7 @@
     - Vulnerability types: Xss
     - Tested in version:4.2
     - Fixed in version: 4.2.1 
-  - [ ] GIF Walkthrough: https://media.giphy.com/media/2tKDARPsofd85XXUnh/giphy.gif
+  - [ ] GIF Walkthrough:  ![xss](https://user-images.githubusercontent.com/37880874/40333406-335819b6-5d0d-11e8-8222-0842e55218be.gif)
   - [ ] Steps to recreate: first I used the script provided from the web site listed below, I modify the msg to show when script gets execute , then I remove a part of the code ( ..[64K]..) and add characters until reached 64k worth of input. After got enough characters  click submit comment and boom!! Xss is applied
   - [ ] Affected source code:
     - [Link 1]( https://klikki.fi/adv/wordpress3.html )
@@ -14,7 +14,7 @@
     - Vulnerability types: fingerprint
     - Tested in version:4.2
     - Fixed in version: --
-  - [ ] GIF Walkthrough: https://media.giphy.com/media/874IogoEGFngiJdSDd/giphy.gif
+  - [ ] GIF Walkthrough: ![fingerprint](https://user-images.githubusercontent.com/37880874/40333414-3ce01326-5d0d-11e8-8727-f4915f91f03e.gif)
   - [ ] Steps to recreate: first I used WPScan to find any possible vulnerability, then I found out that there is an access to find the version of the web site ( WP) just by adding (readme.html) after  (http://wpdistillery.vm/) 
 
 
@@ -23,10 +23,9 @@
     - Vulnerability types: SQLI
     - Tested in version:4.2
     - Fixed in version: 4.2.4
-  - [ ] GIF Walkthrough: https://media.giphy.com/media/42ByiTnW0jTZVAgexm/giphy.gif 
+  - [ ] GIF Walkthrough: ![sqli](https://user-images.githubusercontent.com/37880874/40333416-3f2a4c82-5d0d-11e8-8746-44002dfdd4f2.gif)
   - [ ] Steps to recreate: first is to find the proper SQL injection after that wait until is approved by the administrator. Once approved any comment from that user will be posted without an approval.
   
     - [Link (https://github.com/WordPress/WordPress/commit/70128fe7605cb963a46815cf91b0a5934f70eff5 )
 
-    
-
+  
